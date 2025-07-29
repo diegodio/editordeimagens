@@ -29,8 +29,8 @@ if option == 'Via Upload':
             uploaded_image = st.file_uploader('Via upload', type=['jpg', 'jpeg', 'png'], accept_multiple_files=False)
         
     with col1:
-        with st.container(border = True):
-            if uploaded_image is not None:
+        if uploaded_image is not None:
+            with st.container(border = True):
                 st.session_state.image_original = Image.open(uploaded_image).convert('L')
                 st.session_state.image_edited = np.array(Image.open(uploaded_image).convert('L'))
 
