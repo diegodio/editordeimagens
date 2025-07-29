@@ -1,5 +1,5 @@
 # 🖼️ Editor de Imagens - Processamento com OpenCV e Streamlit
-👨‍💻 por **Diego de Dio Ferreira**
+### 👨‍💻 por **Diego de Dio Ferreira**
 
 Este é um aplicativo desenvolvido com [Streamlit](https://streamlit.io/) e [OpenCV](https://opencv.org/) para aplicar transformações e ajustes em imagens, como rotação, redimensionamento, cisalhamento, brilho, contraste, correção gama e efeito negativo.
 
